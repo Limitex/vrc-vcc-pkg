@@ -1,7 +1,22 @@
 export default {
-  logo: <span>My Nextra Documentation</span>,
+  logo: <span>Limitex Docs</span>,
   project: {
-    link: "https://github.com/shuding/nextra",
+    link: "https://github.com/Limitex/vrc-vcc-pkg",
   },
-  // ... other theme options
+  docsRepositoryBase: "https://github.com/Limitex/vrc-vcc-pkg",
+  feedback: {
+    content: "Feedback →",
+    useLink: () => "https://github.com/Limitex/vrc-vcc-pkg/issues/new",
+  },
+  footer: {
+    content: (
+      <span>
+        © {new Date().getFullYear()}{" "}
+        <a href="https://github.com/Limitex" target="_blank">
+          Limitex
+        </a>
+        .
+      </span>
+    ),
+  },
 };
