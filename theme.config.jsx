@@ -1,12 +1,12 @@
 export default {
   logo: <span>Limitex Docs</span>,
   project: {
-    link: "https://github.com/Limitex/vrc-vcc-pkg",
+    link: "https://github.com/Limitex/docs",
   },
-  docsRepositoryBase: "https://github.com/Limitex/vrc-vcc-pkg/blob/main",
+  docsRepositoryBase: "https://github.com/Limitex/docs/blob/main",
   feedback: {
     content: "Feedback →",
-    useLink: () => "https://github.com/Limitex/vrc-vcc-pkg/issues/new",
+    useLink: () => "https://github.com/Limitex/docs/issues/new",
   },
   footer: {
     content: (
