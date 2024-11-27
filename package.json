@@ -1,24 +1,20 @@
 {
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+  "name": "dev.limitex.mono-ui",
+  "version": "0.0.0",
+  "displayName": "Mono UI",
+  "description": "This is an package",
+  "unity": "2022.3",
+  "unityRelease": "22f1",
+  "dependencies": {},
+  "keywords": [],
+  "author": {
+    "name": "Limitex",
+    "email": "76650151+Limitex@users.noreply.github.com",
+    "url": "https://github.com/Limitex/mono-ui"
   },
-  "dependencies": {
-    "@types/jest": "^29.5.14",
-    "@types/node": "^22.10.0",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "next": "^15.0.3",
-    "nextra": "^3.2.4",
-    "nextra-theme-docs": "^3.2.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript": "^5.7.2"
+  "vpmDependencies": {
+    "com.vrchat.worlds": "3.7.3"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.15"
-  }
+  "url": "https://github.com/Limitex/mono-ui/releases/download/v0.0.0/mono-ui-0.0.0.zip",
+  "license": "MIT"
 }
