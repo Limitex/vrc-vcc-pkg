@@ -1,5 +1,12 @@
 export default {
-  logo: <span>Limitex Docs</span>,
+  logo: <span>Limitex Documents</span>,
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Limitex Docs" />
+      <meta property="og:description" content="Limitex Documents" />
+    </>
+  ),
   project: {
     link: "https://github.com/Limitex/docs",
   },
