@@ -3,7 +3,7 @@ export default {
   project: {
     link: "https://github.com/Limitex/vrc-vcc-pkg",
   },
-  docsRepositoryBase: "https://github.com/Limitex/vrc-vcc-pkg",
+  docsRepositoryBase: "https://github.com/Limitex/vrc-vcc-pkg/blob/main",
   feedback: {
     content: "Feedback →",
     useLink: () => "https://github.com/Limitex/vrc-vcc-pkg/issues/new",
